@@ -22,7 +22,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-dollar_sign = 0
+dollar_sign = []
 array.each do |name|
 name_split = name.split""
 name_split[2] = "$"
@@ -30,6 +30,8 @@ dollar_sign << name_split.join
 end
 dollar_sign
 end
+
+
 
 def find_a(array)
   array.select{|word| word.start_with?("a")}
