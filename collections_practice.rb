@@ -4,4 +4,4 @@ end
 
 def sort_array_desc(array)
   array.sort_by {|reverse| -reverse.sort}
-end 
+end
