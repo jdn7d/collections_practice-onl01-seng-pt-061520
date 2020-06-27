@@ -3,5 +3,6 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort_by {|reverse| -reverse.sort}
-end
+  array.sort! {|a,b| b <=> a}
+  puts array
+  end
