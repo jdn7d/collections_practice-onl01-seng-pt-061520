@@ -22,5 +22,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+dollar_sign = 0
+array.each do |name|
+name_split = name.split" "
+name_split[2] = "$"
+dollar_sign << name_split.join
 
 end
