@@ -17,8 +17,7 @@ array
 end
 
 def reverse_array(array)
-array.reverse = reversed_array
-reversed_array
+
 end
 
 def kesha_maker(array)
