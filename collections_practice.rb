@@ -27,5 +27,5 @@ array.each do |name|
 name_split = name.split" "
 name_split[2] = "$"
 dollar_sign << name_split.join
-
+end
 end
